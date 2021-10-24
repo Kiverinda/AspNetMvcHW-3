@@ -23,6 +23,7 @@ namespace HW3
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new ApplicationViewModel();
         }
     }
 }
